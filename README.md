@@ -100,6 +100,33 @@ Day 3
  
  </details>
  
+   <details>
+<summary>
+Day 4
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/animation%20of%20first%20ui%20in%20quiz.gif" width=50% height=50%>
+   
+  
+   ## 🚀 Learning
+
+  Incorporating views
+
+- [x] Button
+   - [x] Action
+   - [x] Label
+   - [x] spacer
+      
+
+   
+ ---
+  >  - Start building the question screen for Nihongo Quiz Time using the UI elements that I learned about in the previous lessons.
+  utilizing the knowledge and to start building the user interface for my app. I create a dummy question just to prove that I put the code and learn how to integrate different views in canvass into one element.
+   
+ </details>
+ 
+ </details>
+ 
 
 
 
