@@ -34,7 +34,7 @@ Day 1
   
    ## 🚀 Learning
 
-  View Modifiers
+  Text Modification
 
 - [x] Text
    - [x] padding
@@ -44,6 +44,29 @@ Day 1
    
  ---
   >  - I learned how to add text style in my text view using default from xcode and creating you own style.
+   
+ </details>
+ 
+ </details>
+ 
+ <details>
+<summary>
+Day 2
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/Screen%20Shot%202022-06-08%20at%2011.22.02%20PM.png" width=40% height=40%>
+  
+   ## 🚀 Learning
+
+  Views
+
+- [x] Text Views
+   - [x] HStack
+   - [x] VStack
+   - [x] ZStack
+   
+ ---
+  >  - I learned the different style creating text in canvass. What interest me is the Zstack because you can play it and add some functions which I'm still not be able to understand but later on I will learn this.
    
  </details>
  
