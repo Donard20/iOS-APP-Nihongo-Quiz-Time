@@ -72,6 +72,33 @@ Day 2
  
  </details>
  
+  <details>
+<summary>
+Day 3
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/Click.gif" width=50% height=50%>
+   
+     <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/Screen%20Shot%202022-06-09%20at%2012.17.57%20AM.png" width=50% height=50%>
+  
+   ## 🚀 Learning
+
+  Button Views and Spacer
+
+- [x] Button
+   - [x] Action
+   - [x] Label
+   - [x] spacer
+      
+
+   
+ ---
+  >  - I learned to create a simple button using button view inside of Stack view. I also learned that everytime that I clicked the button it will also show in debug area. Its interesting to learn button view and learn what beyond this.
+   
+ </details>
+ 
+ </details>
  
 
 
