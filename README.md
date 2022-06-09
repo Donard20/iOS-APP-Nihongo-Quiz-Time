@@ -79,7 +79,7 @@ Day 3
   <p align="center">
   <img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/Click.gif" width=50% height=50%>
    
-     <p align="center">
+  <p align="center">
   <img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/Screen%20Shot%202022-06-09%20at%2012.17.57%20AM.png" width=50% height=50%>
   
    ## 🚀 Learning
