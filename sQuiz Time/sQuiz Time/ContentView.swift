@@ -8,53 +8,75 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // creating constant variable background color and accent color for border
+    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    
+    let accentColor = Color(red: 42/255, green: 105/255, blue: 240/255)
+    
+    // add maincolor and contain it in zstack view
     var body: some View {
-        
-//        Button Views
-//        Button (action:{
-//            // some action here
-//        }, label: {
-//            // some views here
-//
-//        })
-        
-//        creating vstack with button
-        VStack  {
-            Text("Welcome to sQuiz Time")
-                .font(.title)
-                .padding()
-            Button (action: {
-                print("Clicked")
-            }, label: {
-                Text("Click me")
-            })
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-        }
-        
-//        change the appearance of view using Colors
         ZStack {
-            Color.blue
-            Text("I'm blue")
-                .font(.title)
-                .foregroundColor(Color.white)
-                
+            // spread the color to the edges
+            mainColor.ignoresSafeArea()
+            //create vstack for to contain the rest of the views and add question
+            VStack {
+                Text("1 / 10")
+                    .font(.callout)
+                    .multilineTextAlignment(.leading)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                Text("Who created the Nihongo Quiz Time App?")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                // use spacer to move up the text
+                Spacer()
+                //use hstack for creating buttons
+                HStack {
+                    Button(action: {
+                        print("Tapped on Choice 1")
+                    }, label: {
+                        Text("Jozelle")
+                            .font(.body)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .border(accentColor, width: 4)
+                    })
+                    Button(action: {
+                        print("Tapped on Choice 2")
+                    }, label: {
+                        Text("Marco")
+                            .font(.body)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .border(accentColor, width: 4)
+                    })
+                    Button(action: {
+                        print("Tapped on Choice 3")
+                    }, label: {
+                        Text("Donard")
+                            .font(.body)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .border(accentColor, width: 4)
+                    })
+                    Button(action: {
+                        print("Tapped on Choice 1")
+                    }, label: {
+                        Text("Helen")
+                            .font(.body)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .border(accentColor, width: 4)
+                    })
+                }
+            }
         }
-        
-//        spacer view
-        // use Vstack to push all the way to botttom
-        // use HStack to push in center right corner
-        HStack {
-            Spacer()
-            // use .frame to align
-                .frame(width: 100)
-            Text("I'm blue")
-                .font(.title)
-                .foregroundColor(Color.blue)
-                
-        }
-
+        .foregroundColor(.white)
     }
 }
 
