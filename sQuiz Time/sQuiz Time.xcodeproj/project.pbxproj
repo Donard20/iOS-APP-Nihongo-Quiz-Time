@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */; };
+		36775486284E4EC000C0C425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775485284E4EC000C0C425 /* ContentView.swift */; };
+		36775488284E4EC000C0C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36775487284E4EC000C0C425 /* Assets.xcassets */; };
+		3677548B284E4EC000C0C425 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3677548A284E4EC000C0C425 /* Preview Assets.xcassets */; };
+		36775495284E4EC100C0C425 /* sQuiz_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775494284E4EC100C0C425 /* sQuiz_TimeTests.swift */; };
+		3677549F284E4EC100C0C425 /* sQuiz_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677549E284E4EC100C0C425 /* sQuiz_TimeUITests.swift */; };
+		367754A1284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36775491284E4EC100C0C425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36775478284E4EC000C0C425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3677547F284E4EC000C0C425;
+			remoteInfo = "sQuiz Time";
+		};
+		3677549B284E4EC100C0C425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36775478284E4EC000C0C425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3677547F284E4EC000C0C425;
+			remoteInfo = "sQuiz Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36775480284E4EC000C0C425 /* sQuiz Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sQuiz Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeApp.swift; sourceTree = "<group>"; };
+		36775485284E4EC000C0C425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36775487284E4EC000C0C425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3677548A284E4EC000C0C425 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36775490284E4EC100C0C425 /* sQuiz TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sQuiz TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36775494284E4EC100C0C425 /* sQuiz_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeTests.swift; sourceTree = "<group>"; };
+		3677549A284E4EC100C0C425 /* sQuiz TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sQuiz TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3677549E284E4EC100C0C425 /* sQuiz_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeUITests.swift; sourceTree = "<group>"; };
+		367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3677547D284E4EC000C0C425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677548D284E4EC100C0C425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36775497284E4EC100C0C425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36775477284E4EC000C0C425 = {
+			isa = PBXGroup;
+			children = (
+				36775482284E4EC000C0C425 /* sQuiz Time */,
+				36775493284E4EC100C0C425 /* sQuiz TimeTests */,
+				3677549D284E4EC100C0C425 /* sQuiz TimeUITests */,
+				36775481284E4EC000C0C425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36775481284E4EC000C0C425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36775480284E4EC000C0C425 /* sQuiz Time.app */,
+				36775490284E4EC100C0C425 /* sQuiz TimeTests.xctest */,
+				3677549A284E4EC100C0C425 /* sQuiz TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36775482284E4EC000C0C425 /* sQuiz Time */ = {
+			isa = PBXGroup;
+			children = (
+				36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */,
+				36775485284E4EC000C0C425 /* ContentView.swift */,
+				36775487284E4EC000C0C425 /* Assets.xcassets */,
+				36775489284E4EC000C0C425 /* Preview Content */,
+			);
+			path = "sQuiz Time";
+			sourceTree = "<group>";
+		};
+		36775489284E4EC000C0C425 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3677548A284E4EC000C0C425 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36775493284E4EC100C0C425 /* sQuiz TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				36775494284E4EC100C0C425 /* sQuiz_TimeTests.swift */,
+			);
+			path = "sQuiz TimeTests";
+			sourceTree = "<group>";
+		};
+		3677549D284E4EC100C0C425 /* sQuiz TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3677549E284E4EC100C0C425 /* sQuiz_TimeUITests.swift */,
+				367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */,
+			);
+			path = "sQuiz TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3677547F284E4EC000C0C425 /* sQuiz Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367754A4284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz Time" */;
+			buildPhases = (
+				3677547C284E4EC000C0C425 /* Sources */,
+				3677547D284E4EC000C0C425 /* Frameworks */,
+				3677547E284E4EC000C0C425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sQuiz Time";
+			productName = "sQuiz Time";
+			productReference = 36775480284E4EC000C0C425 /* sQuiz Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3677548F284E4EC100C0C425 /* sQuiz TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367754A7284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz TimeTests" */;
+			buildPhases = (
+				3677548C284E4EC100C0C425 /* Sources */,
+				3677548D284E4EC100C0C425 /* Frameworks */,
+				3677548E284E4EC100C0C425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36775492284E4EC100C0C425 /* PBXTargetDependency */,
+			);
+			name = "sQuiz TimeTests";
+			productName = "sQuiz TimeTests";
+			productReference = 36775490284E4EC100C0C425 /* sQuiz TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36775499284E4EC100C0C425 /* sQuiz TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367754AA284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz TimeUITests" */;
+			buildPhases = (
+				36775496284E4EC100C0C425 /* Sources */,
+				36775497284E4EC100C0C425 /* Frameworks */,
+				36775498284E4EC100C0C425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3677549C284E4EC100C0C425 /* PBXTargetDependency */,
+			);
+			name = "sQuiz TimeUITests";
+			productName = "sQuiz TimeUITests";
+			productReference = 3677549A284E4EC100C0C425 /* sQuiz TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36775478284E4EC000C0C425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3677547F284E4EC000C0C425 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					3677548F284E4EC100C0C425 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3677547F284E4EC000C0C425;
+					};
+					36775499284E4EC100C0C425 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3677547F284E4EC000C0C425;
+					};
+				};
+			};
+			buildConfigurationList = 3677547B284E4EC000C0C425 /* Build configuration list for PBXProject "sQuiz Time" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36775477284E4EC000C0C425;
+			productRefGroup = 36775481284E4EC000C0C425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3677547F284E4EC000C0C425 /* sQuiz Time */,
+				3677548F284E4EC100C0C425 /* sQuiz TimeTests */,
+				36775499284E4EC100C0C425 /* sQuiz TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3677547E284E4EC000C0C425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677548B284E4EC000C0C425 /* Preview Assets.xcassets in Resources */,
+				36775488284E4EC000C0C425 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677548E284E4EC100C0C425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36775498284E4EC100C0C425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3677547C284E4EC000C0C425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36775486284E4EC000C0C425 /* ContentView.swift in Sources */,
+				36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677548C284E4EC100C0C425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36775495284E4EC100C0C425 /* sQuiz_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36775496284E4EC100C0C425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367754A1284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift in Sources */,
+				3677549F284E4EC100C0C425 /* sQuiz_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36775492284E4EC100C0C425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3677547F284E4EC000C0C425 /* sQuiz Time */;
+			targetProxy = 36775491284E4EC100C0C425 /* PBXContainerItemProxy */;
+		};
+		3677549C284E4EC100C0C425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3677547F284E4EC000C0C425 /* sQuiz Time */;
+			targetProxy = 3677549B284E4EC100C0C425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		367754A2284E4EC100C0C425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		367754A3284E4EC100C0C425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367754A5284E4EC100C0C425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sQuiz Time/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367754A6284E4EC100C0C425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sQuiz Time/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		367754A8284E4EC100C0C425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sQuiz Time.app/sQuiz Time";
+			};
+			name = Debug;
+		};
+		367754A9284E4EC100C0C425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sQuiz Time.app/sQuiz Time";
+			};
+			name = Release;
+		};
+		367754AB284E4EC100C0C425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sQuiz Time";
+			};
+			name = Debug;
+		};
+		367754AC284E4EC100C0C425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.don-azura.sQuiz-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sQuiz Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3677547B284E4EC000C0C425 /* Build configuration list for PBXProject "sQuiz Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367754A2284E4EC100C0C425 /* Debug */,
+				367754A3284E4EC100C0C425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367754A4284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367754A5284E4EC100C0C425 /* Debug */,
+				367754A6284E4EC100C0C425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367754A7284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367754A8284E4EC100C0C425 /* Debug */,
+				367754A9284E4EC100C0C425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367754AA284E4EC100C0C425 /* Build configuration list for PBXNativeTarget "sQuiz TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367754AB284E4EC100C0C425 /* Debug */,
+				367754AC284E4EC100C0C425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36775478284E4EC000C0C425 /* Project object */;
+}
