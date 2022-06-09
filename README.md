@@ -16,7 +16,7 @@
 ---
 
 ## 🔥 With Aim to:
-  >  - This will be my frist iOS App that I will develop thru learning in Codecademy. 
+  >  - This will be my first iOS App that I will develop thru learning in Codecademy. 
 I rename the original name from the Codecademy to create my own quiz app with my own style and be able to upload it someday in App store. I'm just starting to learn Swift and SwiftUI in Xcode IDE.
 
 
