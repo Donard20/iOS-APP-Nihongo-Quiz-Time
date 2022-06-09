@@ -105,7 +105,7 @@ Day 3
 Day 4
 </summary>
   <p align="center">
-  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/animation%20of%20first%20ui%20in%20quiz.gif" width=50% height=50%>
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/animation%20of%20first%20ui%20in%20quiz.gif" width=80% height=80%>
    
   
    ## 🚀 Learning
