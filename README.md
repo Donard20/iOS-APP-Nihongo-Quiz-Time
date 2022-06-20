@@ -21,6 +21,41 @@ I rename the original name from the Codecademy to create my own quiz app with my
 
 
 ---
+ 
+## 💡 The Idea (Wireframing):
+<details>
+<summary>
+Wireframe Sketch
+</summary>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/1.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/2.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/3.png" width=40% height=40%>
+     <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/4.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/5.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/6.png" width=40% height=40%>
+     <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/7.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/8.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/9.png" width=40% height=40%>
+     <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/10.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/11.png" width=40% height=40%>
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/wireframe/12.png" width=40% height=40%>
+  
+</details>
+ 
+ 
+---
 
 
 # 🛠️ App progress and Learning
