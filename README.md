@@ -161,6 +161,33 @@ Day 4
  </details>
  
  </details>
+
+
+   <details>
+<summary>
+Day 5
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/Day%205%20GIF.gif" width=80% height=80%>
+   
+  
+   ## 🚀 Learning
+
+  Creating the Question Model
+
+- [x] MVVM
+   - [x] Model
+   - [x] View
+   - [x] ViewModel
+      
+
+   
+ ---
+  >  - Start applying the MVVM pattern by using a Swift struct to model your SwiftUI app’s business logic. I enjoy and learned in this lesson because it explains how to create a model-view-viewmodel to refactor some hardcoded codes in a single view in different models
+   
+ </details>
+ 
+ </details>
  
 
 
