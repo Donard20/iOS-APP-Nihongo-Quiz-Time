@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3638754F2876F71700916849 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3638754E2876F71700916849 /* Question.swift */; };
+		363875512876FE8D00916849 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363875502876FE8D00916849 /* ChoiceTextView.swift */; };
 		36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */; };
 		36775486284E4EC000C0C425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775485284E4EC000C0C425 /* ContentView.swift */; };
 		36775488284E4EC000C0C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36775487284E4EC000C0C425 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3638754E2876F71700916849 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		363875502876FE8D00916849 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		36775480284E4EC000C0C425 /* sQuiz Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sQuiz Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeApp.swift; sourceTree = "<group>"; };
 		36775485284E4EC000C0C425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */,
 				36775485284E4EC000C0C425 /* ContentView.swift */,
+				363875502876FE8D00916849 /* ChoiceTextView.swift */,
+				3638754E2876F71700916849 /* Question.swift */,
 				36775487284E4EC000C0C425 /* Assets.xcassets */,
 				36775489284E4EC000C0C425 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3638754F2876F71700916849 /* Question.swift in Sources */,
 				36775486284E4EC000C0C425 /* ContentView.swift in Sources */,
+				363875512876FE8D00916849 /* ChoiceTextView.swift in Sources */,
 				36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
