@@ -12,10 +12,12 @@ struct ContentView: View {
     let question = Question(
         questionText: "What is 'buy' in japanese?",
         possibleAnswers: ["買う", "走る", "遊ぶ", "歩く" ],
-        correctAswerIndex: 1)
+        correctAswerIndex: 0)
     
     // creating constant variable background color and accent color for border
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    
+    // @State to update the screen when variable changes
+    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
     
     // add maincolor and contain it in zstack view
     var body: some View {
@@ -30,39 +32,34 @@ struct ContentView: View {
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                Text(question.questionText) // update from hard-coded
+                
+                // update from hard-coded
+                Text(question.questionText)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
+                
                 // use spacer to move up the text
                 Spacer()
+                
                 //use hstack for creating buttons
                 HStack {
                     
-                    // update the hard-coded into instances
-                    Button(action: {
-                        print("Tapped on Choice 1")
-                    }, label: {
-                        ChoiceTextView(choiceText: question.possibleAnswers[0])
-                    })
+                    // iterate the array for possible answers
+                    // ERROR: Non-constant range: argument must be an integer literal
                     
-                    Button(action: {
-                        print("Tapped on Choice 2")
-                    }, label: {
-                        ChoiceTextView(choiceText: question.possibleAnswers[1])
-
-                    })
-                    Button(action: {
-                        print("Tapped on Choice 3")
-                    }, label: {
-                        ChoiceTextView(choiceText: question.possibleAnswers[2])
-                    })
-                    
-                    Button(action: {
-                        print("Tapped on Choice 4")
-                    }, label: {
-                        ChoiceTextView(choiceText: question.possibleAnswers[3])
-                    })
+//                    solution: addd these after count [, id: \.self]
+                    ForEach(0..<question.possibleAnswers.count, id: \.self) { answerIndex in
+                        Button(action: {
+                            print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
+                            
+                            // updating background color
+                            mainColor = answerIndex == question.correctAswerIndex ? .green : .red
+                            
+                            }, label: {
+                                    ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
+                        })
+                    }
                 }
             }
         }
