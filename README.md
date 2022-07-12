@@ -4,7 +4,7 @@
 
 
 <p align="center">
-<img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/CodeHistory.gif" width=20% height=20%>
+<img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/CodeHistory.gif" width=50% height=50%>
  
  
 ## 📖 Table Of Contents
