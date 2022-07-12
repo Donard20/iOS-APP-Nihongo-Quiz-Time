@@ -189,6 +189,34 @@ Day 5
  
  </details>
  
+ 
+ 
+ 
+<details>
+<summary>
+Day 6
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/day%206.gif" width=80% height=80%>
+   
+  
+   ## 🚀 Learning
+
+  Updating the User Interface
+
+- [x] Use ForEach to loop the array of possible answer in quiz app.
+- [x] when using ForEach loop, we need to put this ', id: \.self' to avoid error
+- [x] State property wrapper  
+
+      
+   
+ ---
+  >  -  Learn to use the SwiftUI iteration tool to clean up the HStack choices using ForEach loop, although its confusing at first because it's my first time to encounter this, its different from Swift loops like for-in and while loop. I also learn how to update the background when selecting the choices using @State property wrapper. You need to make a certain condition in Hstack for certain choices and add the @State declaration in variable that handling the changes of the property that will tell “This variable can change. Update the screen if it does.”
+   
+ </details>
+ 
+ </details>
+ 
 
 
 
