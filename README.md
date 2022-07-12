@@ -183,7 +183,7 @@ Day 5
 
    
  ---
-  >  - Start applying the MVVM pattern by using a Swift struct to model your SwiftUI app’s business logic. I enjoy and learned in this lesson because it explains how to create a model-view-viewmodel to refactor some hardcoded codes in a single view in different models
+  >  - Start applying the MVVM pattern by using a Swift struct to model your SwiftUI app’s business logic. I enjoy and learned in this lesson because it explains how to create a model-view-viewmodel to refactor some hardcoded codes in a single view from different models
    
  </details>
  
