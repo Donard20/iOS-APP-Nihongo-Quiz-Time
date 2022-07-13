@@ -9,6 +9,7 @@
  
 ## 📖 Table Of Contents
 * 🔥 [Aim for this lesson](#aim)
+* 💻 [Tech Stack/s](#aim)
 * 🛠️ [Problem ](#problem-statement)
 * 🚀 [Solutions](#solutions)
 * 🔥 [Learned](#learn)
@@ -18,6 +19,15 @@
 ## 🔥 With Aim to:
   >  - This will be my first iOS App that I will develop thru learning in Codecademy. 
 I rename the original name from the Codecademy to create my own quiz app with my own style and be able to upload it someday in App store. I'm just starting to learn Swift and SwiftUI in Xcode IDE.
+
+
+---
+
+
+## 💻 Tech Stack/s
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/logo.jpg" width=40% height=40%>
+   <p align="center">
 
 
 ---
