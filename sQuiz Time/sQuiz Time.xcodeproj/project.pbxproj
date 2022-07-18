@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3638754F2876F71700916849 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3638754E2876F71700916849 /* Question.swift */; };
-		363875512876FE8D00916849 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363875502876FE8D00916849 /* ChoiceTextView.swift */; };
 		36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */; };
 		36775486284E4EC000C0C425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775485284E4EC000C0C425 /* ContentView.swift */; };
 		36775488284E4EC000C0C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36775487284E4EC000C0C425 /* Assets.xcassets */; };
@@ -16,6 +14,9 @@
 		36775495284E4EC100C0C425 /* sQuiz_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36775494284E4EC100C0C425 /* sQuiz_TimeTests.swift */; };
 		3677549F284E4EC100C0C425 /* sQuiz_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677549E284E4EC100C0C425 /* sQuiz_TimeUITests.swift */; };
 		367754A1284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */; };
+		36FEB94F28858F0E00689C18 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FEB94E28858F0E00689C18 /* Question.swift */; };
+		36FEB95128858FC500689C18 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FEB95028858FC500689C18 /* ChoiceTextView.swift */; };
+		36FEB9532885959000689C18 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FEB9522885959000689C18 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3638754E2876F71700916849 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		363875502876FE8D00916849 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		36775480284E4EC000C0C425 /* sQuiz Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sQuiz Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeApp.swift; sourceTree = "<group>"; };
 		36775485284E4EC000C0C425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +47,9 @@
 		3677549A284E4EC100C0C425 /* sQuiz TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sQuiz TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3677549E284E4EC100C0C425 /* sQuiz_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeUITests.swift; sourceTree = "<group>"; };
 		367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sQuiz_TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36FEB94E28858F0E00689C18 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		36FEB95028858FC500689C18 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		36FEB9522885959000689C18 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +100,9 @@
 		36775482284E4EC000C0C425 /* sQuiz Time */ = {
 			isa = PBXGroup;
 			children = (
+				36FEB955288595EE00689C18 /* Views */,
+				36FEB954288595D700689C18 /* Models */,
 				36775483284E4EC000C0C425 /* sQuiz_TimeApp.swift */,
-				36775485284E4EC000C0C425 /* ContentView.swift */,
-				363875502876FE8D00916849 /* ChoiceTextView.swift */,
-				3638754E2876F71700916849 /* Question.swift */,
 				36775487284E4EC000C0C425 /* Assets.xcassets */,
 				36775489284E4EC000C0C425 /* Preview Content */,
 			);
@@ -131,6 +132,24 @@
 				367754A0284E4EC100C0C425 /* sQuiz_TimeUITestsLaunchTests.swift */,
 			);
 			path = "sQuiz TimeUITests";
+			sourceTree = "<group>";
+		};
+		36FEB954288595D700689C18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36FEB9522885959000689C18 /* Game.swift */,
+				36FEB94E28858F0E00689C18 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36FEB955288595EE00689C18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36775485284E4EC000C0C425 /* ContentView.swift */,
+				36FEB95028858FC500689C18 /* ChoiceTextView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3638754F2876F71700916849 /* Question.swift in Sources */,
+				36FEB94F28858F0E00689C18 /* Question.swift in Sources */,
+				36FEB9532885959000689C18 /* Game.swift in Sources */,
 				36775486284E4EC000C0C425 /* ContentView.swift in Sources */,
-				363875512876FE8D00916849 /* ChoiceTextView.swift in Sources */,
+				36FEB95128858FC500689C18 /* ChoiceTextView.swift in Sources */,
 				36775484284E4EC000C0C425 /* sQuiz_TimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

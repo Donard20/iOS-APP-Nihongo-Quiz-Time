@@ -10,14 +10,15 @@ import SwiftUI
 struct ContentView: View {
     
     let question = Question(
-        questionText: "What is 'buy' in japanese?",
+        questionText: "to buy",
         possibleAnswers: ["買う", "走る", "遊ぶ", "歩く" ],
-        correctAswerIndex: 0)
+        correctAnswerIndex: 0)
     
     // creating constant variable background color and accent color for border
     
     // @State to update the screen when variable changes
     @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    
     
     // add maincolor and contain it in zstack view
     var body: some View {
@@ -54,7 +55,7 @@ struct ContentView: View {
                             print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
                             
                             // updating background color
-                            mainColor = answerIndex == question.correctAswerIndex ? .green : .red
+                            mainColor = answerIndex == question.correctAnswerIndex ? .green : .red
                             
                             }, label: {
                                     ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
