@@ -4,11 +4,12 @@
 
 
 <p align="center">
-<img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/CodeHistory.gif" width=20% height=20%>
+<img src="https://github.com/Donard20/iOS-APP-sQuiz-Time/blob/main/IMG/CodeHistory.gif" width=50% height=50%>
  
  
 ## 📖 Table Of Contents
 * 🔥 [Aim for this lesson](#aim)
+* 💻 [Tech Stack/s](#aim)
 * 🛠️ [Problem ](#problem-statement)
 * 🚀 [Solutions](#solutions)
 * 🔥 [Learned](#learn)
@@ -18,6 +19,15 @@
 ## 🔥 With Aim to:
   >  - This will be my first iOS App that I will develop thru learning in Codecademy. 
 I rename the original name from the Codecademy to create my own quiz app with my own style and be able to upload it someday in App store. I'm just starting to learn Swift and SwiftUI in Xcode IDE.
+
+
+---
+
+
+## 💻 Tech Stack/s
+   <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/logo.jpg" width=40% height=40%>
+   <p align="center">
 
 
 ---
@@ -183,7 +193,35 @@ Day 5
 
    
  ---
-  >  - Start applying the MVVM pattern by using a Swift struct to model your SwiftUI app’s business logic. I enjoy and learned in this lesson because it explains how to create a model-view-viewmodel to refactor some hardcoded codes in a single view in different models
+  >  - Start applying the MVVM pattern by using a Swift struct to model your SwiftUI app’s business logic. I enjoy and learned in this lesson because it explains how to create a model-view-viewmodel to refactor some hardcoded codes in a single view from different models
+   
+ </details>
+ 
+ </details>
+ 
+ 
+ 
+ 
+<details>
+<summary>
+Day 6
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/day%206.gif" width=80% height=80%>
+   
+  
+   ## 🚀 Learning
+
+  Updating the User Interface
+
+- [x] Use ForEach to loop the array of possible answer in quiz app.
+- [x] when using ForEach loop, we need to put this ', id: \.self' to avoid error
+- [x] State property wrapper  
+
+      
+   
+ ---
+  >  -  Learn to use the SwiftUI iteration tool to clean up the HStack choices using ForEach loop, although its confusing at first because it's my first time to encounter this, its different from Swift loops like for-in and while loop. I also learn how to update the background when selecting the choices using @State property wrapper. You need to make a certain condition in Hstack for certain choices and add the @State declaration in variable that handling the changes of the property that will tell “This variable can change. Update the screen if it does.”
    
  </details>
  
