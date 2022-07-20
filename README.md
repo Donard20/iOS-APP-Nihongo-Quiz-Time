@@ -227,6 +227,34 @@ Day 6
  
  </details>
  
+ 
+ 
+ <details>
+<summary>
+Day 7
+</summary>
+  <p align="center">
+  <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/IMG/day%206.gif" width=80% height=80%>
+   
+  
+   ## 🚀 Learning
+
+  Add new model for the logic of the game
+
+- [x] Hashable protocol
+- [x] Simple Object-Oriented Model
+- [x] API 
+- [x] MVVM
+
+      
+   
+ ---
+  >  -  I added another model to your application and already made use of it, by concentrating the application’s game logic in the model instead of the view. You’ve learned how to make a structure conform to Hashable and used a hashable structure as a key in a dictionary. I also begun to think more deeply about object-oriented and API design.
+   
+ </details>
+ 
+ </details>
+ 
 
 
 
