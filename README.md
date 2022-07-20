@@ -244,6 +244,7 @@ Day 7
 - [x] Hashable protocol
 - [x] Simple Object-Oriented Model
 - [x] API 
+- [x] MVVM
 
       
    
