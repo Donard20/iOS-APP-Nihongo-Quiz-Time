@@ -256,7 +256,11 @@ Day 7
  </details>
  
 
+# 🛠️ Small  Projects 
 
+SR No   | Project | Description | Author |  Image 
+--- | --- | --- | --- | --- |
+1 | [Donard's Online Sari-Sari Store](https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/tree/main/Donard%20Store) | I learned here a simple app using NavigationView and NavigationLink in SwiftUI. | [Donard](https://github.com/Donard20) | <p align="center"> <img src="https://github.com/Donard20/iOS-APP-Nihongo-Quiz-Time/blob/main/Donard%20Store/5.gif" width=40% height=40%>
 
 
 
